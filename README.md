@@ -1,3 +1,3 @@
 Admin 2026
 
-Abregu Rey - Bugeau - Gallardo Piorno - Schedan
+Abregu Rey - Bugeau - Bulacio - Gallardo Piorno - Gil Nohra - Juarez - Schedan
