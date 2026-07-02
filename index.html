@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <title>SiTech</title>
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <a href="#inicio" class="logo">
+        <img src="logo.png" alt="Logo SiTech" scale = "30%">
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#caracteristicas">Características</a></li>
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <div class="nav-cta">
+      <a href="#contacto" class="btn btn-primary">Solicitar prueba</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ INICIO ============ -->
+  <section id="inicio" class="hero">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow1">Sistema de agrologística</span>
+          <h1>De la semilla al puerto,<br>un solo <em>panel de control</em>.</h1>
+          <p class="lead">
+            SiTech conecta el monitoreo de tus cultivos con la logística de cosecha y transporte.
+            Un mismo sistema para decidir cuándo cosechar, hacia dónde despachar y cómo llegar
+            a destino sin pérdidas ni demoras.
+          </p>
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn-primary">Solicitar una prueba</a>
+            <a href="#caracteristicas" class="btn btn-ghost">Ver características</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg viewBox="0 0 400 400">
+            <defs>
+              <pattern id="furrows" width="40" height="40" patternTransform="rotate(35)" patternUnits="userSpaceOnUse">
+                <rect width="40" height="40" fill="#17261D"/>
+                <rect width="18" height="40" fill="#1E3226"/>
+              </pattern>
+            </defs>
+            <rect width="400" height="400" fill="url(#furrows)"/>
+
+            <path d="M60 320 C 130 260, 150 200, 210 150 S 330 90, 350 60"
+                  fill="none" stroke="#D9A441" stroke-width="2" stroke-dasharray="6 6" opacity="0.85"/>
+
+            <circle cx="60" cy="320" r="6" fill="#7FB069"/>
+            <circle cx="210" cy="150" r="6" fill="#7FB069"/>
+            <circle cx="350" cy="60" r="6" fill="#D9A441" class="node-pulse"/>
+
+            <circle cx="60" cy="320" r="12" fill="none" stroke="#7FB069" stroke-width="1" opacity="0.4"/>
+            <circle cx="210" cy="150" r="12" fill="none" stroke="#7FB069" stroke-width="1" opacity="0.4"/>
+          </svg>
+        </div>
+      </div>
+
+      <div class="stat-strip">
+        <div class="stat">
+          <div class="stat-num">18.500 ha</div>
+          <div class="stat-label">Monitoreadas en tiempo real</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">−32%</div>
+          <div class="stat-label">Tiempo de traslado a acopio</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">140+</div>
+          <div class="stat-label">Productores conectados</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CARACTERÍSTICAS ============ -->
+  <section id="caracteristicas">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow2">Características</span>
+        <h2>Todo el campo, en un mismo mapa.</h2>
+        <p>Seis módulos que trabajan juntos: lo que pasa en el lote define lo que pasa en la ruta.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature-card">
+          <span class="feature-tag">Cultivo</span>
+          <h3>Monitoreo de cultivos</h3>
+          <p>Humedad de suelo, temperatura y estado fenológico por lote, con alertas tempranas de plagas y estrés hídrico.</p>
+          <div class="furrow-divider"></div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-tag">Cosecha</span>
+          <h3>Planificación de cosecha</h3>
+          <p>Calendario dinámico que ajusta fechas según madurez del cultivo, pronóstico climático y disponibilidad de maquinaria.</p>
+          <div class="furrow-divider"></div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-tag">Ruta</span>
+          <h3>Logística de transporte</h3>
+          <p>Ruteo óptimo desde el lote hasta acopio o puerto, con seguimiento GPS y reasignación automática ante demoras.</p>
+          <div class="furrow-divider"></div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-tag">Stock</span>
+          <h3>Gestión de acopio</h3>
+          <p>Control de silos, bolsas y bins en tiempo real, con visibilidad de volumen disponible antes de cada despacho.</p>
+          <div class="furrow-divider"></div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-tag">Clima</span>
+          <h3>Pronóstico hiperlocal</h3>
+          <p>Datos meteorológicos por lote para anticipar ventanas de siembra, aplicación y cosecha con mayor precisión.</p>
+          <div class="furrow-divider"></div>
+        </div>
+        <div class="feature-card">
+          <span class="feature-tag">Trazabilidad</span>
+          <h3>Reportes y trazabilidad</h3>
+          <p>Historial completo por lote y por envío, exportable para auditorías, certificaciones y clientes.</p>
+          <div class="furrow-divider"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BENEFICIOS ============ -->
+  <section id="beneficios">
+    <div class="wrap">
+      <div class="benefits-layout">
+        <div class="benefits-copy">
+          <span class="eyebrow1">Beneficios</span>
+          <h2>Menos pérdidas, más control sobre cada decisión.</h2>
+          <p>
+            Unificar cultivo y logística en un mismo sistema elimina las planillas sueltas y las
+            llamadas de último momento. Cada decisión se toma con datos actualizados, no con estimaciones.
+          </p>
+          <ul class="benefits-list">
+            <li>Menos mermas post-cosecha por mejor sincronización entre madurez y transporte.</li>
+            <li>Costos logísticos más bajos gracias al ruteo optimizado y menos kilómetros vacíos.</li>
+            <li>Decisiones en tiempo real, sin depender de reportes manuales por lote.</li>
+            <li>Trazabilidad lista para exportación y certificaciones internacionales.</li>
+            <li>Un mismo sistema para uno o varios campos, sin duplicar procesos.</li>
+          </ul>
+        </div>
+
+        <div class="benefit-stats">
+          <div class="benefit-stat">
+            <div class="num">−18<small>%</small></div>
+            <p>de mermas post-cosecha en campos que usan planificación integrada.</p>
+          </div>
+          <div class="benefit-stat">
+            <div class="num">−32<small>%</small></div>
+            <p>en costo logístico por hectárea despachada.</p>
+          </div>
+          <div class="benefit-stat">
+            <div class="num">3.5<small>x</small></div>
+            <p>más rápido el armado de reportes de trazabilidad.</p>
+          </div>
+          <div class="benefit-stat">
+            <div class="num">24<small>/7</small></div>
+            <p>visibilidad de stock, rutas y estado de cultivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACTO ============ -->
+  <section id="contacto">
+    <div class="wrap">
+      <div class="contact-layout">
+        <div class="contact-info">
+          <span class="eyebrow2">Contacto</span>
+          <h2>Pidamos una prueba, o construyamos algo a medida.</h2>
+          <p>
+            Contanos cómo trabajás hoy tu campo y tu logística. Te mostramos Surco funcionando
+            con tus propios datos, o armamos un desarrollo específico para tu operación.
+          </p>
+
+          <div class="contact-details">
+            <div>
+              <div class="label">Email</div>
+              <div class="value">sitech@outlook.com</div>
+            </div>
+            <div>
+              <div class="label">Teléfono</div>
+              <div class="value">+54 381 000 0000</div>
+            </div>
+            <div>
+              <div class="label">Oficina</div>
+              <div class="value">San Miguel de Tucumán, Argentina</div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <div class="field">
+              <label for="nombre">Nombre y apellido</label>
+              <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="field">
+              <label for="empresa">Empresa / campo</label>
+              <input type="text" id="empresa" name="empresa">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="hectareas">Hectáreas gestionadas (aprox.)</label>
+            <input type="text" id="hectareas" name="hectareas" placeholder="Ej: 2.500 ha">
+          </div>
+
+          <div class="field">
+            <label>Tipo de solicitud</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="tipo" value="prueba" checked>
+                Prueba gratuita
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="tipo" value="a-medida">
+                Desarrollo a medida
+              </label>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Contanos brevemente qué necesitás monitorear o resolver."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <a href="#inicio" class="logo">SiTech</a>
+    <ul class="footer-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#caracteristicas">Características</a></li>
+      <li><a href="#beneficios">Beneficios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <span class="footer-fine">© 2026 SiTech — Soluciones tecnologicas</span>
+  </div>
+</footer>
+
+</body>
+</html>
