@@ -15,8 +15,8 @@
   --ink-muted:rgba(0,0,0,0.62);   /* texto secundario, mismo negro con menor opacidad */
   --ink-faint:rgba(0,0,0,0.42);
 
-  --font-display:'Fraunces', serif;
-  --font-body:'Manrope', sans-serif;
+  --font-display:'Objectivity', serif;
+  --font-body:'Monsterrat', sans-serif;
   --font-mono:'IBM Plex Mono', monospace;
 
   --radius:10px;
@@ -81,7 +81,7 @@ h1,h2,h3{
   font-size:12.5px;
   letter-spacing:0.14em;
   text-transform:uppercase;
-  color:var(--green-deep);
+  color:var(--ink);
   display:inline-flex;
   align-items:center;
   gap:10px;
@@ -89,7 +89,7 @@ h1,h2,h3{
 .eyebrow2::before{
   content:"";
   width:18px;height:1px;
-  background:var(--green-deep);
+  background:var(--ink);
 }
 
 .btn{
@@ -142,7 +142,7 @@ header{
   font-size:21px;
   font-weight:600;
 }
-.logo img{height:30px;width:auto;}
+.logo img{height:85px;width:auto;}
 .logo-mark{
   width:26px;height:26px;
   position:relative;
