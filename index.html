@@ -1,680 +1,1305 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SiTech — Factoría de Software y Consultoría Tecnológica en el NOA. Plataforma AgroLogística inteligente, sistemas de gestión empresarial a medida y auditorías de madurez digital.">
-  <title>SiTech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SiTech — Factoría de Software y Consultoría Tecnológica en el NOA. Plataforma AgroLogística inteligente, sistemas de gestión empresarial a medida y auditorías de madurez digital.">
+    <title>SiTech — AgroLogística & Software Factory</title>
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
 
-<!-- ==========================================================================
-     HEADER & BARRA DE NAVEGACIÓN
-     ========================================================================== -->
-<header>
-  <nav class="nav">
-    <a href="#inicio" class="logo" title="SiTech - Soluciones Tecnológicas">
-      <img src="logo.png" alt="Logo oficial SiTech">
-    </a>
-
-    <input type="checkbox" id="nav-toggle" class="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú de navegación">
-      <span></span><span></span><span></span>
-    </label>
-
-    <ul class="nav-links">
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#empresa">Empresa</a></li>
-      <li><a href="#soluciones">Soluciones</a></li>
-      <li><a href="#organigrama">Organigrama</a></li>
-      <li><a href="#contacto">Contacto</a></li>
-    </ul>
-
-    <div class="nav-cta">
-      <a href="#soluciones" class="btn btn-ghost btn-sm">Soluciones</a>
-      <a href="#contacto" class="btn btn-primary btn-sm">Contacto</a>
-    </div>
-  </nav>
-</header>
-
-<main>
-
-  <!-- ==========================================================================
-       HERO SECTION
-       ========================================================================== -->
-  <section id="inicio" class="hero">
-    <div class="hero-banner-bg" aria-hidden="true"></div>
-    <div class="wrap">
-      <div class="hero-grid">
-        <div>
-          <h1>Impulsando la <span class="highlight-green">transformación digital</span> y la <span class="highlight-teal">agro-logística</span> del NOA.</h1>
-          <p class="lead">
-            En <strong>SiTech</strong> desarrollamos soluciones tecnológicas donde el código interactúa directamente con la realidad física del entorno. Unificamos el monitoreo de lotes, la zafra, el pesaje en balanza y la flota de transporte hacia acopios y puertos en una plataforma de gestión inteligente.
-          </p>
-          <div class="hero-actions">
-            <a href="#soluciones" class="btn btn-primary">
-              <span>Conocer Nuestras Soluciones</span>
+    <!-- ==========================================================================
+         HEADER & BARRA DE NAVEGACIÓN
+         ========================================================================== -->
+    <header>
+        <nav class="nav">
+            <a href="#inicio" class="logo" title="SiTech - Soluciones Tecnológicas">
+                <img src="logo.png" alt="Logo oficial SiTech">
             </a>
-            <a href="#contacto" class="btn btn-ghost">Solicitar Servicios</a>
-          </div>
 
-          <div class="hero-badge-strip">
-            <span>✓ Desarrollado en Tucumán para la región</span>
-            <span>•</span>
-            <span>✓ Trazabilidad digital de cartas de porte (CTG)</span>
-            <span>•</span>
-            <span>✓ Soporte presencial en plantas e ingenios</span>
-          </div>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label" aria-label="Abrir menú de navegación">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#empresa">Empresa</a></li>
+                <li><a href="#problematica">Problemática vs Solución</a></li>
+                <li><a href="#soluciones">Soluciones</a></li>
+                <li><a href="#organigrama">Organigrama</a></li>
+                <li><a href="#conclusiones">Conclusiones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <div class="nav-cta">
+                <a href="#soluciones" class="btn btn-ghost btn-sm">Soluciones</a>
+                <a href="#contacto" class="btn btn-primary btn-sm">Contacto</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ==========================================================================
+             HERO SECTION
+             ========================================================================== -->
+        <section id="inicio" class="hero">
+            <div class="hero-banner-bg" aria-hidden="true"></div>
+            <div class="wrap">
+                <div class="hero-grid">
+                    <div>
+                        <h1>
+                            Impulsando la <span class="highlight-green">transformación digital</span> y la <span class="highlight-teal">agro-logística</span> del NOA.
+                        </h1>
+                        <p class="lead">
+                            En <strong>SiTech</strong> desarrollamos soluciones tecnológicas donde el código interactúa directamente con la realidad física del entorno. Unificamos el monitoreo de lotes, la zafra, el pesaje en balanza y la flota de transporte hacia acopios y puertos en una plataforma de gestión inteligente.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#soluciones" class="btn btn-primary">
+                                <span>Conocer Nuestras Soluciones</span>
+                            </a>
+                            <a href="#contacto" class="btn btn-ghost">Solicitar Servicios</a>
+                        </div>
+
+                        <div class="hero-badge-strip">
+                            <span>✓ Desarrollado en Tucumán para la región</span>
+                            <span>•</span>
+                            <span>✓ Trazabilidad digital de cartas de porte (CTG)</span>
+                            <span>•</span>
+                            <span>✓ Soporte presencial en plantas e ingenios</span>
+                        </div>
+                    </div>
+
+                    <!-- Métricas de Impacto -->
+                    <div class="stat-strip">
+                        <div class="stat-item">
+                            <div class="num">18.500+</div>
+                            <div class="lbl">Hectáreas monitoreadas en la región</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="num">−32%</div>
+                            <div class="lbl">Reducción de tiempos muertos en traslados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="num">100%</div>
+                            <div class="lbl">Cartas de Porte Electrónicas integradas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="num">10+</div>
+                            <div class="lbl">Empresas medianas proyectadas en 2 años</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             SECCIÓN INSTITUCIONAL: EMPRESA
+             ========================================================================== -->
+        <section id="empresa">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Construyendo tecnología robusta desde el corazón productivo del NOA.</h2>
+                    <p>
+                        <strong>SiTech</strong> es una empresa de desarrollo de software y consultoría tecnológica nacida con el objetivo de acelerar la digitalización del Noroeste Argentino, transformando procesos manuales en arquitecturas modernas, trazables y eficientes.
+                    </p>
+                </div>
+
+                <!-- Panel AgroLogístico: Misión y Visión (Texto Oficial TP N°1) -->
+                <div class="agro-identity-container">
+
+                    <div class="route-tracker-bar" aria-hidden="true">
+                        <div class="tracker-point origin">
+                            <span class="point-dot"></span>
+                            <span class="point-label">OPERACIÓN EN CAMPO & BALANZA</span>
+                        </div>
+                        <div class="tracker-line">
+                            <span class="tracker-pulse"></span>
+                        </div>
+                        <div class="tracker-point destination">
+                            <span class="point-dot"></span>
+                            <span class="point-label">ACOPIOS, PUERTOS & ESCALA GLOBAL</span>
+                        </div>
+                    </div>
+
+                    <div class="agro-identity-grid">
+
+                        <!-- Tarjeta 1: Misión -->
+                        <article class="agro-card card-origin">
+                            <div class="agro-card-top">
+                                <div class="agro-icon-box">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 3v18" />
+                                        <path d="m3 7 9-4 9 4" />
+                                        <path d="M6 10l-3 7h6l-3-7Z" />
+                                        <path d="M18 10l-3 7h6l-3-7Z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="agro-kicker">PROPÓSITO OPERATIVO</span>
+                                    <h3 class="agro-card-title">Nuestra Misión</h3>
+                                </div>
+                            </div>
+
+                            <div class="agro-pills">
+                                <span class="pill">Plataformas Agro-Logística</span>
+                                <span class="pill">Desarrollo a Medida</span>
+                                <span class="pill">Análisis de Datos</span>
+                                <span class="pill">Arquitectura de Software</span>
+                            </div>
+
+                            <p class="agro-card-desc">
+                                Impulsar la transformación digital del sector productivo y empresarial del NOA a través de soluciones de software, combinando plataformas especializadas en Agro-Logística con servicios de desarrollo a medida que resuelvan desafíos de gestión, análisis de datos y arquitectura de software.
+                            </p>
+
+                            <div class="agro-highlights">
+                                <div class="highlight-item">
+                                    <div class="hl-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
+                                            <path d="M15 18H9" />
+                                            <path d="M19 18h2a1 1 0 0 0 1-1v-5l-3-4h-5v10Z" />
+                                            <circle cx="7" cy="18" r="2" />
+                                            <circle cx="17" cy="18" r="2" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <strong>Plataformas Especializadas:</strong> Trazabilidad del grano, zafra, balanza electrónica y logística pesada hacia acopios y puertos.
+                                    </div>
+                                </div>
+
+                                <div class="highlight-item">
+                                    <div class="hl-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M3 21h18" />
+                                            <path d="M5 21V7l7-4 7 4v14" />
+                                            <path d="M9 10h6" />
+                                            <path d="M9 14h6" />
+                                            <path d="M9 18h6" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <strong>Desarrollo a Medida:</strong> Sistemas integrados a los procesos críticos del sector productivo con soporte cercano en la región.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-edge-accent accent-green"></div>
+                        </article>
+
+                        <!-- Tarjeta 2: Visión -->
+                        <article class="agro-card card-destination">
+                            <div class="agro-card-top">
+                                <div class="agro-icon-box teal-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <line x1="2" y1="12" x2="22" y2="12" />
+                                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1-4-10z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="agro-kicker teal-kicker">HORIZONTE ESTRATÉGICO</span>
+                                    <h3 class="agro-card-title">Nuestra Visión</h3>
+                                </div>
+                            </div>
+
+                            <div class="agro-pills">
+                                <span class="pill">Factoría Líder NOA</span>
+                                <span class="pill">Proyección Internacional</span>
+                                <span class="pill">Entorno Físico & IoT</span>
+                                <span class="pill">Optimización por Código</span>
+                            </div>
+
+                            <p class="agro-card-desc">
+                                Convertirse en la factoría de software líder del NOA con proyección internacional, destacada por su capacidad de resolver problemas complejos donde el software interactúa con la realidad física del entorno, y la optimización de procesos operativos a través del código.
+                            </p>
+
+                            <div class="agro-highlights">
+                                <div class="highlight-item">
+                                    <div class="hl-icon teal-hl">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                                            <polyline points="2 17 12 22 22 17" />
+                                            <polyline points="2 12 12 17 22 12" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <strong>Interacción con el Entorno Físico:</strong> Conexión nativa con sensores, balanzas y telemetría de maquinaria agroindustrial.
+                                    </div>
+                                </div>
+
+                                <div class="highlight-item">
+                                    <div class="hl-icon teal-hl">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="m16 6 4 14" />
+                                            <path d="M12 6v14" />
+                                            <path d="M8 8v12" />
+                                            <path d="M4 4v16" />
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <strong>Liderazgo y Proyección Global:</strong> Células de ingeniería del NOA con capacidad de exportación de servicios tecnológicos.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card-edge-accent accent-teal"></div>
+                        </article>
+
+                    </div>
+                </div>
+
+                <!-- Objetivos Estratégicos -->
+                <div class="section-head text-left" style="margin-bottom: 24px; margin-top: 60px;">
+                    <h3 style="font-size: 1.8rem; margin-top: 10px;">Nuestros Objetivos</h3>
+                </div>
+
+                <div class="strategy-grid">
+                    <div class="strategy-card">
+                        <div class="strat-top">
+                            <div class="icon-svg-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 3v18h18" />
+                                    <path d="m19 9-5 5-4-4-3 3" />
+                                </svg>
+                            </div>
+                            <span class="strat-tag">Meta 24M</span>
+                        </div>
+                        <div class="strat-metric" data-target="10" data-prefix="+" data-suffix="">+10</div>
+                        <h4 class="strat-title">Empresas en el NOA</h4>
+                        <p class="strat-desc">Alcanzar una cuota de mercado como proveedores para el sector productivo de al menos 10 empresas medianas en 2 años.</p>
+                        <div class="strat-hover-line"></div>
+                    </div>
+
+                    <div class="strategy-card">
+                        <div class="strat-top">
+                            <div class="icon-svg-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <polyline points="12 6 12 12 16 14" />
+                                </svg>
+                            </div>
+                            <span class="strat-tag">Auditoría</span>
+                        </div>
+                        <div class="strat-metric" data-target="12" data-prefix="" data-suffix=" Meses">12 Meses</div>
+                        <h4 class="strat-title">Caso de Éxito Regional</h4>
+                        <p class="strat-desc">Presentar y auditar formalmente un caso de éxito de impacto operativo durante los próximos 12 meses.</p>
+                        <div class="strat-hover-line"></div>
+                    </div>
+
+                    <div class="strategy-card">
+                        <div class="strat-top">
+                            <div class="icon-svg-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+                                </svg>
+                            </div>
+                            <span class="strat-tag">Eficiencia</span>
+                        </div>
+                        <div class="strat-metric" data-target="20" data-prefix="-" data-suffix="%">-20%</div>
+                        <h4 class="strat-title">Ciclo de Entrega</h4>
+                        <p class="strat-desc">Implementar metodologías ágiles estandarizadas y reducir el tiempo de ciclo de entrega en un 20%.</p>
+                        <div class="strat-hover-line"></div>
+                    </div>
+
+                    <div class="strategy-card">
+                        <div class="strat-top">
+                            <div class="icon-svg-box">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" />
+                                    <line x1="2" y1="12" x2="22" y2="12" />
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10z" />
+                                </svg>
+                            </div>
+                            <span class="strat-tag">Calidad</span>
+                        </div>
+                        <div class="strat-metric" data-target="80" data-prefix="" data-suffix="%">80%</div>
+                        <h4 class="strat-title">Patrones de Diseño</h4>
+                        <p class="strat-desc">Construir al menos el 80% de los proyectos bajo patrones de diseño y tolerancia a fallos en baja conectividad.</p>
+                        <div class="strat-hover-line"></div>
+                    </div>
+                </div>
+
+                <!-- Estrategias de Mercado -->
+                <div class="offering-block" style="margin-top: 48px; background: #FFFFFF; border: 1px solid var(--line);">
+                    <div class="offering-header" style="margin-bottom: 20px;">
+                        <div>
+                            <h3 style="font-size: 1.5rem; margin-top: 8px;">Venta Consultiva y Alianzas Regionales</h3>
+                        </div>
+                    </div>
+                    <p style="color:var(--text-muted);margin-bottom:20px;line-height:1.7;">
+                        Para superar las barreras culturales y el conservadurismo tecnológico regional, implementamos un modelo de <strong>venta consultiva presencial basado en "Auditorías de Madurez Digital" gratuitas</strong> directamente en plantas, ingenios y fincas. Respaldamos este abordaje con alianzas institucionales (EEAOC, Sociedad Rural y cooperativas rurales), monitoreo de rendimiento en producción y conformación de equipos ágiles para exportación de servicios.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             PROBLEMÁTICA REGIONAL VS SOLUCIÓN
+             ========================================================================== -->
+        <section id="problematica">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>El dolor operativo del campo vs. La eficiencia de SiTech</h2>
+                    <p>
+                        Contrastamos los cuellos de botella habituales en la agroindustria del NOA frente a las soluciones tecnológicas concretas que implementamos en cada etapa productiva.
+                    </p>
+                </div>
+
+                <div class="mirror-contrast-container">
+
+                    <!-- Fila 1 -->
+                    <div class="contrast-row">
+                        <div class="contrast-row-header">
+                            <span class="process-tag">01 / GESTIÓN DE INFORMACIÓN</span>
+                            <span class="process-title">Flujo y Consolidación de Datos</span>
+                        </div>
+                        <div class="contrast-cols-wrapper">
+                            <div class="contrast-box box-problem">
+                                <div class="contrast-icon problem-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                                        <polyline points="14 2 14 8 20 8" />
+                                        <line x1="9" y1="13" x2="15" y2="13" />
+                                        <line x1="9" y1="17" x2="13" y2="17" />
+                                        <line x1="17" y1="17" x2="17.01" y2="17" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl problem-lbl">Problemática Tradicional</span>
+                                    <h4>Información duplicada e inconexa</h4>
+                                    <p>Datos de cosecha, balanza y transporte cargados múltiples veces en planillas dispersas sin sincronización ni validación centralizada.</p>
+                                </div>
+                            </div>
+
+                            <div class="contrast-divider" aria-hidden="true">
+                                <span class="divider-arrow">➔</span>
+                            </div>
+
+                            <div class="contrast-box box-solution">
+                                <div class="contrast-icon solution-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                                        <polyline points="7 10 12 15 17 10" />
+                                        <line x1="12" y1="15" x2="12" y2="3" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl solution-lbl">Solución SiTech</span>
+                                    <h4>Plataforma Unificada en Tiempo Real</h4>
+                                    <p>Una sola fuente de verdad digital que sincroniza el lote, la tolva, la báscula y la gerencia sin redundancia ni re-trabajo manual.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fila 2 -->
+                    <div class="contrast-row">
+                        <div class="contrast-row-header">
+                            <span class="process-tag">02 / LOGÍSTICA & DESPACHO</span>
+                            <span class="process-title">Pesaje en Balanza y Flota Pesada</span>
+                        </div>
+                        <div class="contrast-cols-wrapper">
+                            <div class="contrast-box box-problem">
+                                <div class="contrast-icon problem-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10" />
+                                        <polyline points="12 6 12 12 16 14" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl problem-lbl">Problemática Tradicional</span>
+                                    <h4>Procesos lentos y cuellos de botella</h4>
+                                    <p>Filas interminables en balanzas de pesaje, demoras en asignación de camiones y despacho desarticulado hacia acopios y terminales portuarias.</p>
+                                </div>
+                            </div>
+
+                            <div class="contrast-divider" aria-hidden="true">
+                                <span class="divider-arrow">➔</span>
+                            </div>
+
+                            <div class="contrast-box box-solution">
+                                <div class="contrast-icon solution-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M10 17h4V5H2v12h3" />
+                                        <path d="M20 17h2v-3.34a4 4 0 0 0-1.17-2.83L19 9h-5" />
+                                        <circle cx="7.5" cy="17.5" r="2.5" />
+                                        <circle cx="17.5" cy="17.5" r="2.5" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl solution-lbl">Solución SiTech</span>
+                                    <h4>Logística Sincronizada con CTG Digital</h4>
+                                    <p>Pesaje automatizado en balanza serial, ruteo satelital en tiempo real y emisión electrónica automática de Cartas de Porte en ruta.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fila 3 -->
+                    <div class="contrast-row">
+                        <div class="contrast-row-header">
+                            <span class="process-tag">03 / TOMA DE DECISIONES</span>
+                            <span class="process-title">Reportes de Cosecha y Rendimiento</span>
+                        </div>
+                        <div class="contrast-cols-wrapper">
+                            <div class="contrast-box box-problem">
+                                <div class="contrast-icon problem-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl problem-lbl">Problemática Tradicional</span>
+                                    <h4>Dificultad para obtener reportes confiables</h4>
+                                    <p>Horas o días de procesamiento manual de planillas para conocer el rinde real por lote, con alto margen de error humano.</p>
+                                </div>
+                            </div>
+
+                            <div class="contrast-divider" aria-hidden="true">
+                                <span class="divider-arrow">➔</span>
+                            </div>
+
+                            <div class="contrast-box box-solution">
+                                <div class="contrast-icon solution-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <line x1="18" y1="20" x2="18" y2="10" />
+                                        <line x1="12" y1="20" x2="12" y2="4" />
+                                        <line x1="6" y1="20" x2="6" y2="14" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl solution-lbl">Solución SiTech</span>
+                                    <h4>Dashboards Ejecutivos Instantáneos</h4>
+                                    <p>Indicadores en vivo de toneladas recolectadas, rindes por hectárea y ocupación de silos con exportación formal en un clic.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fila 4 -->
+                    <div class="contrast-row">
+                        <div class="contrast-row-header">
+                            <span class="process-tag">04 / AUDITORÍA & CALIDAD</span>
+                            <span class="process-title">Trazabilidad de la Carga y Certificaciones</span>
+                        </div>
+                        <div class="contrast-cols-wrapper">
+                            <div class="contrast-box box-problem">
+                                <div class="contrast-icon problem-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                                        <line x1="12" y1="9" x2="12" y2="13" />
+                                        <line x1="12" y1="17" x2="12.01" y2="17" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl problem-lbl">Problemática Tradicional</span>
+                                    <h4>Escasa trazabilidad en ruta</h4>
+                                    <p>Pérdida de control y seguimiento de la carga desde el lote hasta su destino final, dificultando certificaciones de calidad y exportación.</p>
+                                </div>
+                            </div>
+
+                            <div class="contrast-divider" aria-hidden="true">
+                                <span class="divider-arrow">➔</span>
+                            </div>
+
+                            <div class="contrast-box box-solution">
+                                <div class="contrast-icon solution-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                                        <path d="m9 12 2 2 4-4" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl solution-lbl">Solución SiTech</span>
+                                    <h4>Trazabilidad Digital Punta a Punta</h4>
+                                    <p>Historial digital inmutable de cada viaje y lote: origen de siembra, pesaje inicial, trayecto y entrega validada para comercio exterior.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fila 5 -->
+                    <div class="contrast-row">
+                        <div class="contrast-row-header">
+                            <span class="process-tag">05 / GESTIÓN DE RIESGO</span>
+                            <span class="process-title">Pérdidas Post-Cosecha y Clima</span>
+                        </div>
+                        <div class="contrast-cols-wrapper">
+                            <div class="contrast-box box-problem">
+                                <div class="contrast-icon problem-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z" />
+                                        <path d="m13 15-3 5h4l-2 5" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl problem-lbl">Problemática Tradicional</span>
+                                    <h4>Mermas y errores humanos no previstos</h4>
+                                    <p>Pérdidas de producto en cosecha y silos por falta de coordinación entre ventanas climáticas y despachos de transporte.</p>
+                                </div>
+                            </div>
+
+                            <div class="contrast-divider" aria-hidden="true">
+                                <span class="divider-arrow">➔</span>
+                            </div>
+
+                            <div class="contrast-box box-solution">
+                                <div class="contrast-icon solution-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="5" />
+                                        <line x1="12" y1="1" x2="12" y2="3" />
+                                        <line x1="12" y1="21" x2="12" y2="23" />
+                                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                                        <line x1="1" y1="12" x2="3" y2="12" />
+                                        <line x1="21" y1="12" x2="23" y2="12" />
+                                    </svg>
+                                </div>
+                                <div class="contrast-content">
+                                    <span class="status-lbl solution-lbl">Solución SiTech</span>
+                                    <h4>Alertas Agroclimáticas Preventivas</h4>
+                                    <p>Integración con telemetría de campo y pronósticos zonales para programar zafra antes de lluvias, minimizando mermas técnicas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             CATÁLOGO DE PRODUCTOS Y SERVICIOS
+             ========================================================================== -->
+        <section id="soluciones">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Dos Productos Especializados y Dos Servicios Clave</h2>
+                    <p>
+                        Estructuramos nuestra oferta para cubrir tanto productos propios listos para desplegar en el agro como servicios de desarrollo a medida y consultoría estratégica de alto nivel.
+                    </p>
+                </div>
+
+                <div class="offerings-container">
+
+                    <!-- Producto 1: Plataforma AgroLogística (Limpio sin etiquetas de módulos) -->
+                    <div class="offering-block">
+                        <div class="offering-header">
+                            <div>
+                                <h3>Plataforma AgroLogística</h3>
+                                <p>
+                                    Aplicación integral diseñada específicamente para centralizar la información de la producción agrícola y articularla fluidamente con la logística de transporte y almacenamiento.
+                                </p>
+                            </div>
+                            <a href="#contacto" class="btn btn-primary btn-sm">Solicitar Información</a>
+                        </div>
+
+                        <div class="modules-grid">
+                            <div class="module-card">
+                                <h4>Monitoreo de Cultivos</h4>
+                                <p>Seguimiento de lotes georreferenciados, estado fenológico, porcentaje de humedad de suelo, índice verde NDVI y alertas de estrés hídrico o plagas.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Gestión de Cosecha</h4>
+                                <p>Planificación de labores, fechas estimadas de recolección, asignación de maquinaria, tolvas y registro dinámico de toneladas por lote.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Gestión de Transporte</h4>
+                                <p>Asignación de flota pesada, vinculación automática de Carta de Porte Electrónica (CTG), trazado de rutas óptimas lote-acopio-puerto y seguimiento de demoras.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Gestión de Acopio y Silos</h4>
+                                <p>Monitoreo de nivel de llenado en silos y celdas, registro de temperatura, humedad del grano almacenado y control de mermas técnicas.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Clima y Alertas Zonales</h4>
+                                <p>Conexión con estaciones meteorológicas regionales del NOA para anticipar ventanas óptimas de cosecha y alertar ante tormentas severas.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Trazabilidad Digital</h4>
+                                <p>Historial digital inmutable que documenta la vida del cultivo: fecha de siembra, fitosanitarios, cosecha, pesaje balanza y transporte a destino.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Producto 2: Plataformas Personalizadas (Limpio sin etiquetas de gestión/proyectos) -->
+                    <div class="offering-block">
+                        <div class="offering-header">
+                            <div>
+                                <h3>Plataformas Personalizadas de Gestión Empresarial</h3>
+                                <p>
+                                    Sistemas desarrollados y adaptados con precisión a la estructura organizativa, procesos administrativos y objetivos particulares de cada cliente.
+                                </p>
+                            </div>
+                            <a href="#contacto" class="btn btn-ghost btn-sm">Consultar Solución</a>
+                        </div>
+
+                        <div class="modules-grid">
+                            <div class="module-card">
+                                <h4>Gestión de Clientes (CRM)</h4>
+                                <p>Registro centralizado de cuentas comerciales, productores asociados, contratos de entrega y condiciones comerciales.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Gestión de Empleados</h4>
+                                <p>Administración del personal, legajos, roles y permisos, turnos operativos de cuadrillas y asignación a proyectos o faenas.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Gestión de Proyectos & Campañas</h4>
+                                <p>Planificación de campañas productivas (zafra azucarera, campaña gruesa de granos, citrus), hitos y avance presupuestario.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Dashboards e Indicadores</h4>
+                                <p>Paneles ejecutivos de control con métricas clave en tiempo real, gráficos de evolución y estados de alerta operativos.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Módulo de Reportes Oficiales</h4>
+                                <p>Generación de informes personalizados con filtros por campaña, lote o fecha, exportables a formatos Excel y PDF listos para directorio.</p>
+                            </div>
+
+                            <div class="module-card">
+                                <h4>Configuración & Permisos</h4>
+                                <p>Administración granular de perfiles de usuario, autenticación segura, parámetros de conexión API y auditoría de eventos.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Servicios Modulares B2B (Sin subtítulos superiores) -->
+                    <div class="services-grid">
+
+                        <!-- Servicio 1 -->
+                        <article class="service-card-modular dev-service">
+                            <div class="service-card-header">
+                                <div class="service-icon-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polyline points="16 18 22 12 16 6" />
+                                        <polyline points="8 6 2 12 8 18" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Desarrollo de Software a Medida</h3>
+                                </div>
+                            </div>
+
+                            <p class="service-lead">
+                                Diseñamos y construimos sistemas desde cero bajo principios de Arquitectura Limpia (Clean Architecture), adaptados con precisión a los procesos críticos y equipamiento de su empresa.
+                            </p>
+
+                            <div class="service-modules-list">
+                                <div class="service-module-item">
+                                    <div class="mod-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                            <line x1="8" y1="21" x2="16" y2="21" />
+                                            <line x1="12" y1="17" x2="12" y2="21" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Aplicaciones Cloud & Desktop</h5>
+                                        <p>Sistemas web reactivos y software de balanza (.NET, C#, Python, React).</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                                            <polyline points="2 17 12 22 22 17" />
+                                            <polyline points="2 12 12 17 22 12" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>APIs RESTful & Microservicios</h5>
+                                        <p>Arquitecturas escalables e interoperabilidad con ERPs y bases de datos legadas.</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M12 3v18" />
+                                            <path d="m3 7 9-4 9 4" />
+                                            <path d="M6 10l-3 7h6l-3-7Z" />
+                                            <path d="M18 10l-3 7h6l-3-7Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Integración con Balanzas & IoT</h5>
+                                        <p>Conexión directa con balanzas de camiones y sensores de temperatura/humedad.</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                                            <circle cx="9" cy="7" r="4" />
+                                            <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                                            <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Células Ágiles Dedicadas</h5>
+                                        <p>Equipos de ingeniería para proyectos regionales y proyección internacional.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="service-card-action">
+                                <a href="#contacto" class="btn btn-service-cta btn-service-outline">
+                                    <span>Cotizar Proyecto a Medida</span>
+                                    <span class="cta-arrow">→</span>
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- Servicio 2 -->
+                        <article class="service-card-modular audit-service">
+                            <div class="service-card-header">
+                                <div class="service-icon-badge amber-badge">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M2 12h5l3 5 4-10 3 5h5" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h3>Consultoría Tecnológica & Auditorías</h3>
+                                </div>
+                            </div>
+
+                            <p class="service-lead">
+                                Analizamos integralmente la operación de su organización para detectar cuellos de botella y diseñar la hoja de ruta tecnológica más rentable para su negocio.
+                            </p>
+
+                            <div class="service-modules-list">
+                                <div class="service-module-item">
+                                    <div class="mod-icon amber-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M3 21h18" />
+                                            <path d="M5 21V7l7-4 7 4v14" />
+                                            <path d="M9 10h6" />
+                                            <path d="M9 14h6" />
+                                            <path d="M9 18h6" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Auditorías de Madurez Digital</h5>
+                                        <p>Diagnóstico presencial sin costo en plantas, ingenios y empaques de todo el NOA.</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon amber-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="6" cy="6" r="3" />
+                                            <circle cx="6" cy="18" r="3" />
+                                            <line x1="6" y1="9" x2="6" y2="15" />
+                                            <path d="M9 18h9a3 3 0 0 0 3-3V9a3 3 0 0 0-3-3H9" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Relevamiento & Modelado (BPMN)</h5>
+                                        <p>Estandarización formal de flujos de negocio y diseño de casos de uso operativos.</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon amber-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="10" />
+                                            <polyline points="12 6 12 12 16 14" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Refactorización & Rendimiento</h5>
+                                        <p>Optimización profunda para erradicar fallos y reducir hasta un 20% los tiempos operativos.</p>
+                                    </div>
+                                </div>
+
+                                <div class="service-module-item">
+                                    <div class="mod-icon amber-icon">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+                                            <circle cx="9" cy="7" r="4" />
+                                            <polyline points="16 11 18 13 22 9" />
+                                        </svg>
+                                    </div>
+                                    <div class="mod-info">
+                                        <h5>Migración & Capacitación en Planta</h5>
+                                        <p>Planes de adopción tecnológica y entrenamiento presencial al personal técnico y de campo.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="service-card-action">
+                                <a href="#contacto" class="btn btn-service-cta btn-service-solid">
+                                    <span>Solicitar Auditoría Presencial</span>
+                                    <span class="cta-arrow">→</span>
+                                </a>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             ORGANIGRAMA EMPRESARIAL (LIMPIO SIN CÓDIGOS NUMÉRICOS)
+             ========================================================================== -->
+        <section id="organigrama">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Organigrama Empresarial</h2>
+                    <p>
+                        Diseñado bajo principios de especialización, control de calidad y soporte presencial continuo para el sector productivo regional. Haga clic en cualquiera de los puestos técnicos para explorar sus funciones específicas.
+                    </p>
+                </div>
+
+                <div class="org-chart-wrapper">
+                    <div class="org-tree">
+
+                        <!-- Nivel 1: Dirección General (Sin código numérico) -->
+                        <div class="org-node ceo">
+                            <div class="name">Dirección General (CEO)</div>
+                            <div class="role">Gerencia General</div>
+                        </div>
+
+                        <!-- Nivel 2: Gerencias de Área (Sin códigos numéricos) -->
+                        <div class="org-tier tier-gerencias">
+                            <div class="org-node">
+                                <div class="name">Área RRHH</div>
+                                <div class="role">Reclutamiento y Talento</div>
+                            </div>
+
+                            <div class="org-node">
+                                <div class="name">Área Comercial</div>
+                                <div class="role">Ventas y Alianzas NOA</div>
+                            </div>
+
+                            <div class="org-node" style="border-top-color:var(--primary-light);">
+                                <div class="name">Área Tecnología</div>
+                                <div class="role">Dirección de Tecnología (CTO)</div>
+                            </div>
+                        </div>
+
+                        <!-- Nivel 3 y 4: Departamentos y Puestos (Sin códigos) -->
+                        <div class="org-tier tier-deptos">
+
+                            <!-- Depto 1 -->
+                            <div class="org-depto-group">
+                                <div class="org-depto-title">Depto. Desarrollo</div>
+
+                                <div class="org-node-action" data-role="pm">
+                                    <div class="role-head">Project Manager</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="backend">
+                                    <div class="role-head">Desarrollador BackEnd</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="frontend">
+                                    <div class="role-head">Desarrollador FrontEnd</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+                            </div>
+
+                            <!-- Depto 2 -->
+                            <div class="org-depto-group">
+                                <div class="org-depto-title">Depto. Sistemas</div>
+
+                                <div class="org-node-action" data-role="analista">
+                                    <div class="role-head">Analista Funcional</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="data">
+                                    <div class="role-head">Data Analyst / DBA</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="ui">
+                                    <div class="role-head">Diseñador UI / UX</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="devops">
+                                    <div class="role-head">Ingeniero DevOps</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="ciberseguridad">
+                                    <div class="role-head">Especialista CiberSeguridad</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+                            </div>
+
+                            <!-- Depto 3 -->
+                            <div class="org-depto-group">
+                                <div class="org-depto-title">Depto. Soporte</div>
+
+                                <div class="org-node-action" data-role="soporte">
+                                    <div class="role-head">Técnico de Soporte & Admin</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+                            </div>
+
+                            <!-- Depto 4 -->
+                            <div class="org-depto-group">
+                                <div class="org-depto-title">Depto. Pruebas y Control</div>
+
+                                <div class="org-node-action" data-role="qa">
+                                    <div class="role-head">QA Tester Funcional</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+
+                                <div class="org-node-action" data-role="rendimiento">
+                                    <div class="role-head">Tester de Seguridad & Rendimiento</div>
+                                    <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal Interactivo para Ficha de Puestos -->
+        <div id="role-detail-modal" class="role-modal-overlay" aria-hidden="true">
+            <div class="role-modal">
+                <button id="role-modal-close" class="role-modal-close" aria-label="Cerrar modal">✕</button>
+                <h3 id="role-modal-title">Título del Puesto</h3>
+                <div id="role-modal-area" class="modal-meta">Área y Departamento</div>
+                <div id="role-modal-dependencia" style="font-size:13px;font-weight:600;color:var(--text-muted);margin-bottom:16px;">Dependencia</div>
+
+                <div class="role-modal-block">
+                    <h4>Objetivo General del Puesto</h4>
+                    <p id="role-modal-objetivo">Texto del objetivo...</p>
+                </div>
+
+                <div class="role-modal-block">
+                    <h4>Funciones Específicas</h4>
+                    <ul id="role-modal-funciones">
+                        <!-- Dinámico -->
+                    </ul>
+                </div>
+
+                <div class="role-modal-block">
+                    <h4>Competencias Requeridas</h4>
+                    <p id="role-modal-competencias">Competencias...</p>
+                </div>
+
+                <div class="role-modal-block">
+                    <h4>Principales Conocimientos y Habilidades</h4>
+                    <p id="role-modal-herramientas" style="font-family:var(--font-mono);font-size:13px;background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">Herramientas...</p>
+                </div>
+            </div>
         </div>
 
+        <!-- ==========================================================================
+             CONCLUSIONES DEL PROYECTO
+             ========================================================================== -->
+        <section id="conclusiones" style="background: #FFFFFF; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);">
+            <div class="wrap">
+                <div class="section-head">
+                    <h2>Conclusiones del Proyecto Integrador</h2>
+                    <p>Síntesis del impacto estratégico, operativo y de viabilidad técnica proyectada para el ecosistema del NOA.</p>
+                </div>
 
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;">
+                    <div class="about-box" style="padding: 28px; border-top: 4px solid var(--primary);">
+                        <h4 style="font-size: 1.15rem; color: var(--primary); margin-bottom: 10px;">Impacto Operativo Comprobado</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+                            La digitalización del flujo zafra-lote-balanza erradica la doble carga de datos y permite una toma de decisiones informada en tiempo real, reduciendo hasta un 32% los tiempos muertos en traslados y pesaje de camiones.
+                        </p>
+                    </div>
 
-      <!-- Métricas de Impacto -->
-      <div class="stat-strip">
-        <div class="stat-item">
-          <div class="num">18.500+</div>
-          <div class="lbl">Hectáreas monitoreadas en la región</div>
+                    <div class="about-box" style="padding: 28px; border-top: 4px solid var(--accent-teal);">
+                        <h4 style="font-size: 1.15rem; color: var(--accent-teal-dark); margin-bottom: 10px;">Viabilidad del Modelo Comercial</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+                            El esquema de venta consultiva con auditorías presenciales gratuitas en plantas y cooperativas disuelve las barreras culturales y el conservadurismo tecnológico en las empresas del Noroeste Argentino.
+                        </p>
+                    </div>
+
+                    <div class="about-box" style="padding: 28px; border-top: 4px solid var(--accent-amber);">
+                        <h4 style="font-size: 1.15rem; color: #92400e; margin-bottom: 10px;">Escalabilidad y Proyección 2027</h4>
+                        <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">
+                            La adopción de principios de Arquitectura Limpia y microservicios modulares asegura que el núcleo de la plataforma pueda escalar sin fricción desde el ámbito agropecuario regional hacia clientes corporativos internacionales.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================================================
+             CONTACTO & CONVERSIÓN B2B
+             ========================================================================== -->
+        <section id="contacto">
+            <div class="wrap">
+                <div class="contact-layout">
+
+                    <!-- Columna Izquierda -->
+                    <div class="contact-info">
+                        <span class="badge badge-primary" style="margin-bottom: 14px;">Atención en el NOA</span>
+                        <h2>Comencemos a modernizar su operación.</h2>
+                        <p>
+                            Coordinemos una <strong>Auditoría de Madurez Digital gratuita</strong> directamente en su establecimiento productivo o solicite información técnica sobre nuestra <strong>Plataforma AgroLogística</strong> y desarrollos de software a medida.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-card-item">
+                                <div class="icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                                        <circle cx="12" cy="10" r="3" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card-text">
+                                    <span class="card-meta">Sede Central</span>
+                                    <div class="card-val">San Miguel de Tucumán, Argentina</div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <rect x="2" y="4" width="20" height="16" rx="2" />
+                                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card-text">
+                                    <span class="card-meta">Correo Corporativo</span>
+                                    <div class="card-val"><a href="mailto:contacto@sitech.com.ar">contacto@sitech.com.ar</a></div>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item highlight-phone">
+                                <div class="icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                                    </svg>
+                                </div>
+                                <div class="contact-card-text">
+                                    <span class="card-meta">Línea Directa de Operaciones</span>
+                                    <div class="card-val phone-highlight">+54 (381) 452-9000</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="trust-notice-box">
+                            <span class="trust-icon">🔒</span>
+                            <span>Garantía de confidencialidad en pesaje, rindes y datos de cartas de porte (CTG).</span>
+                        </div>
+                    </div>
+
+                    <!-- Columna Derecha -->
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="main-contact-form" action="#" method="post">
+
+                            <div class="form-block-head">
+                                <span class="block-number">01</span>
+                                <div>
+                                    <h4>Datos del Representante</h4>
+                                    <p>Información de contacto institucional para coordinar la respuesta.</p>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="field">
+                                    <label for="nombre">Nombre y Apellido *</label>
+                                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Ing. Martín Gómez" required>
+                                </div>
+                                <div class="field">
+                                    <label for="empresa">Empresa / Establecimiento *</label>
+                                    <input type="text" id="empresa" name="empresa" placeholder="Ej: Agropecuaria Santa Rosa S.A." required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="field">
+                                    <label for="email">Correo Electrónico *</label>
+                                    <input type="email" id="email" name="email" placeholder="m.gomez@empresa.com.ar" required>
+                                </div>
+                                <div class="field">
+                                    <label for="telefono">Teléfono de Contacto</label>
+                                    <input type="tel" id="telefono" name="telefono" placeholder="+54 381 456-7890">
+                                </div>
+                            </div>
+
+                            <div class="form-block-head" style="margin-top: 10px;">
+                                <span class="block-number">02</span>
+                                <div>
+                                    <h4>Parámetros Operativos</h4>
+                                    <p>Detalles clave para asignarle el equipo técnico adecuado.</p>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="hectareas">Superficie o Capacidad Operativa (aprox.)</label>
+                                <input type="text" id="hectareas" name="hectareas" placeholder="Ej: 3.200 Ha en zafra / 2 Silos de 3.000 Tn / Flota de 15 camiones">
+                            </div>
+
+                            <div class="field">
+                                <label>Tipo de Solicitud Requerida</label>
+                                <div class="request-selector-grid">
+
+                                    <label class="request-selector-card active" for="tipo-auditoria">
+                                        <input type="radio" id="tipo-auditoria" name="tipo" value="auditoria" checked>
+                                        <div class="card-radio-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" />
+                                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1" />
+                                                <path d="m9 14 2 2 4-4" />
+                                            </svg>
+                                        </div>
+                                        <div class="card-radio-body">
+                                            <span class="radio-card-title">Auditoría Gratuita</span>
+                                            <span class="radio-card-desc">Diagnóstico presencial en planta</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="request-selector-card" for="tipo-demo">
+                                        <input type="radio" id="tipo-demo" name="tipo" value="demo">
+                                        <div class="card-radio-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2" />
+                                                <line x1="8" y1="21" x2="16" y2="21" />
+                                                <line x1="12" y1="17" x2="12" y2="21" />
+                                            </svg>
+                                        </div>
+                                        <div class="card-radio-body">
+                                            <span class="radio-card-title">Demostración</span>
+                                            <span class="radio-card-desc">Tour guiado de AgroLogística</span>
+                                        </div>
+                                    </label>
+
+                                    <label class="request-selector-card" for="tipo-amedida">
+                                        <input type="radio" id="tipo-amedida" name="tipo" value="a-medida">
+                                        <div class="card-radio-icon">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <polyline points="16 18 22 12 16 6" />
+                                                <polyline points="8 6 2 12 8 18" />
+                                            </svg>
+                                        </div>
+                                        <div class="card-radio-body">
+                                            <span class="radio-card-title">Desarrollo a Medida</span>
+                                            <span class="radio-card-desc">Proyecto de software específico</span>
+                                        </div>
+                                    </label>
+
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="mensaje">Describa brevemente su necesidad u operación</label>
+                                <textarea id="mensaje" name="mensaje" placeholder="Indíquenos cultivo principal (soja, maíz, citrus, caña), problemas de conectividad o demoras en pesaje de balanza..."></textarea>
+                            </div>
+
+                            <button type="submit" id="btn-submit-contact" class="btn btn-primary btn-submit-full">
+                                <span class="btn-text">Enviar Solicitud al Equipo SiTech</span>
+                                <span class="btn-spinner" aria-hidden="true"></span>
+                            </button>
+                        </form>
+
+                        <div id="contact-success-state" class="contact-success-screen" style="display: none;">
+                            <div class="success-icon-badge">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                    <polyline points="22 4 12 14.01 9 11.01" />
+                                </svg>
+                            </div>
+                            <h3>¡Solicitud Recibida con Éxito!</h3>
+                            <p id="success-dynamic-message">
+                                Hemos registrado su solicitud formal. Un asesor técnico y logístico de SiTech se pondrá en contacto dentro de las próximas 24 horas hábiles.
+                            </p>
+                            <div class="success-ticket-box">
+                                <div class="ticket-row"><span>Sede Responsable:</span> <strong>Tucumán, Argentina</strong></div>
+                                <div class="ticket-row"><span>Canal de Respuesta:</span> <strong id="success-client-email">Email / Teléfono</strong></div>
+                                <div class="ticket-row"><span>Atención Directa:</span> <strong>+54 (381) 452-9000</strong></div>
+                            </div>
+                            <button type="button" id="btn-reset-form" class="btn btn-ghost btn-sm" style="margin-top: 20px;">
+                                Enviar otra consulta
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ==========================================================================
+         FOOTER INSTITUCIONAL CORPORATIVO
+         ========================================================================== -->
+    <footer>
+        <div class="wrap">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="Logo SiTech Blanco">
+                    <p>
+                        Factoría de software y consultoría tecnológica líder en el Noroeste Argentino. Especialistas en soluciones de agrologística, optimización de cadenas de valor y arquitectura de software.
+                    </p>
+                    <p style="margin-top:12px;font-size:13px;color:#64748B;">
+                        📍 San Miguel de Tucumán, Tucumán, Argentina
+                    </p>
+                </div>
+
+                <div class="footer-nav">
+                    <h4>Soluciones</h4>
+                    <ul>
+                        <li><a href="#soluciones">Plataforma AgroLogística</a></li>
+                        <li><a href="#soluciones">Plataformas Personalizadas</a></li>
+                        <li><a href="#soluciones">Desarrollo de Software a Medida</a></li>
+                        <li><a href="#soluciones">Consultoría Tecnológica</a></li>
+                        <li><a href="#contacto">Auditorías de Madurez Digital</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-nav">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#empresa">Misión y Visión</a></li>
+                        <li><a href="#empresa">Objetivos y Estrategias</a></li>
+                        <li><a href="#problematica">Diagnóstico Sectorial</a></li>
+                        <li><a href="#organigrama">Organigrama de la Empresa</a></li>
+                        <li><a href="#conclusiones">Conclusiones</a></li>
+                        <li><a href="#contacto">Contacto & Consultas</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>© 2026 SiTech — Soluciones Tecnológicas. Todos los derechos reservados. San Miguel de Tucumán, Argentina.</div>
+                <div>Desarrollo y Consultoría Tecnológica para el NOA y Proyección Internacional.</div>
+            </div>
         </div>
-        <div class="stat-item">
-          <div class="num">−32%</div>
-          <div class="lbl">Reducción de tiempos muertos en traslados</div>
-        </div>
-        <div class="stat-item">
-          <div class="num">100%</div>
-          <div class="lbl">Cartas de Porte Electrónicas integradas</div>
-        </div>
-        <div class="stat-item">
-          <div class="num">10+</div>
-          <div class="lbl">Empresas medianas proyectadas en 2 años</div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- ==========================================================================
-       SECCIÓN INSTITUCIONAL: EMPRESA
-       ========================================================================== -->
-  <section id="empresa">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Construyendo tecnología robusta desde el corazón productivo del NOA.</h2>
-        <p>
-          <strong>SiTech</strong> es una empresa de desarrollo de software y consultoría tecnológica nacida con el objetivo de acelerar la digitalización del Noroeste Argentino, transformando procesos manuales en arquitecturas modernas, trazables y eficientes.
-        </p>
-      </div>
-
-      <div class="about-intro-grid">
-        <div class="about-box mision">
-          <h3>
-            <span style="color:var(--primary);">🎯</span> Nuestra Misión
-          </h3>
-          <p>
-            Impulsar la transformación digital del sector productivo y empresarial del NOA a través de soluciones de software, combinando plataformas especializadas en <strong>Agro-Logística</strong> con servicios de <strong>desarrollo a medida</strong> que resuelvan desafíos de gestión, análisis de datos y arquitectura de software.
-          </p>
-        </div>
-
-        <div class="about-box vision">
-          <h3>
-            <span style="color:var(--accent-teal);">🚀</span> Nuestra Visión
-          </h3>
-          <p>
-            Convertirse en la <strong>factoría de software líder del NOA con proyección internacional</strong>, destacada por su capacidad de resolver problemas complejos donde el software interactúa con la realidad física del entorno y la optimización de procesos operativos a través del código.
-          </p>
-        </div>
-      </div>
-
-      <!-- Objetivos Estratégicos -->
-      <div class="section-head text-left" style="margin-bottom: 24px;">
-        <h3 style="font-size: 1.8rem; margin-top: 10px;">Nuestros Objetivos</h3>
-      </div>
-
-      <div class="strategy-grid">
-        <div class="strategy-card">
-          <div class="icon-tag" style="background:#E8F5E9;color:#1B5E20;">📈</div>
-          <h4>10 Empresas en 2 Años</h4>
-          <p>Alcanzar una cuota de mercado como proveedores tecnológicos del sector productivo y agroindustrial del NOA de al menos 10 empresas medianas dentro de los próximos 24 meses.</p>
-        </div>
-
-        <div class="strategy-card">
-          <div class="icon-tag" style="background:#E0F2FE;color:#0284C7;">⭐</div>
-          <h4>Caso de Éxito en 12 Meses</h4>
-          <p>Consolidar y auditar un caso de éxito regional mediante un modelo de co-creación y beneficio mutuo con un cliente estratégico, documentando formalmente el impacto operativo antes y después.</p>
-        </div>
-
-        <div class="strategy-card">
-          <div class="icon-tag" style="background:#FEF3C7;color:#D97706;">⚡</div>
-          <h4>−20% de Tiempos y Fallos</h4>
-          <p>Reducir en un 20% los tiempos de procesamiento de datos y fallos operativos en sistemas de gestión de clientes actuales mediante refactorización y arquitectura limpia en 18 meses.</p>
-        </div>
-
-        <div class="strategy-card">
-          <div class="icon-tag" style="background:#F3E8FF;color:#7E22CE;">🌎</div>
-          <h4>15% Facturación Global</h4>
-          <p>Lograr que el 15% de la facturación total por servicios de desarrollo a medida provenga de clientes del exterior (EE.UU. y Latinoamérica) al cierre del año fiscal 2027.</p>
-        </div>
-      </div>
-
-      <!-- Estrategias de Mercado -->
-      <div class="offering-block" style="margin-top: 48px; background: #FFFFFF; border: 1px solid var(--line);">
-        <div class="offering-header" style="margin-bottom: 20px;">
-          <div>
-            <h3 style="font-size: 1.5rem; margin-top: 8px;">Venta Consultiva y Alianzas Regionales</h3>
-          </div>
-        </div>
-        <p style="color:var(--text-muted);margin-bottom:20px;line-height:1.7;">
-          Para superar las barreras culturales y el conservadurismo tecnológico regional, implementamos un modelo de <strong>venta consultiva presencial basado en "Auditorías de Madurez Digital" gratuitas</strong> directamente en plantas, ingenios y fincas. Respaldamos este abordaje con alianzas institucionales (EEAOC, Sociedad Rural y cooperativas rurales), monitoreo de rendimiento en producción y conformación de equipos ágiles para exportación de servicios.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       PROBLEMÁTICA REGIONAL VS SOLUCIÓN
-       ========================================================================== -->
-  <section id="problematica">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>El desafío operativo del NOA y la respuesta SiTech</h2>
-        <p>
-          En el relevamiento de mercado identificamos que la mayoría de las PyMEs y establecimientos productivos aún dependen de planillas de cálculo dispersas, registros manuales y comunicaciones desarticuladas.
-        </p>
-      </div>
-
-      <div class="comparison-grid">
-        <div class="comparison-card problem">
-          <h3>
-            <span style="color:var(--accent-danger);">⚠️</span> Problemática Tradicional
-          </h3>
-          <ul class="problem-list">
-            <li><strong>Información duplicada e inconexa:</strong> Datos de cosecha, balanza y transporte cargados varias veces en planillas distintas sin sincronización.</li>
-            <li><strong>Procesos lentos y cuellos de botella:</strong> Demoras en pesaje de tolvas, asignación de camiones y despacho hacia acopios o terminales portuarias.</li>
-            <li><strong>Dificultad para obtener reportes confiables:</strong> Horas o días de consolidación manual para conocer el rinde real de cada lote.</li>
-            <li><strong>Escasa trazabilidad:</strong> Pérdida de control de la carga desde el lote hasta su destino final, dificultando certificaciones de exportación.</li>
-            <li><strong>Mermas y errores humanos:</strong> Pérdidas post-cosecha por falta de sincronización climática y logística.</li>
-          </ul>
-        </div>
-
-        <div class="comparison-card solution">
-          <h3>
-            <span style="color:var(--primary);">✨</span> Nuestra Solucion
-          </h3>
-          <ul class="solution-list">
-            <li><strong>Plataforma Unificada en Tiempo Real:</strong> Una sola fuente de verdad para el campo, los silos, la flota y la gerencia general.</li>
-            <li><strong>Logística Sincronizada con CTG:</strong> Ruteo optimizado, control satelital y gestión electrónica de Cartas de Porte en ruta.</li>
-            <li><strong>Dashboards Ejecutivos Instantáneos:</strong> Métricas de toneladas recolectadas, rindes por hectárea y capacidad de acopio al instante.</li>
-            <li><strong>Trazabilidad Digital Punta a Punta:</strong> Auditoría completa de cada lote y viaje, lista para cumplir exigencias y normativas internacionales.</li>
-            <li><strong>Alertas Agroclimáticas Preventivas:</strong> Sensores y pronósticos hiperlocales que anticipan lluvias, heladas o plagas antes de cosechar.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       CATÁLOGO DE PRODUCTOS Y SERVICIOS
-       ========================================================================== -->
-  <section id="soluciones">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Dos Productos Especializados y Dos Servicios Clave</h2>
-        <p>
-          Estructuramos nuestra oferta para cubrir tanto productos propios listos para desplegar en el agro como servicios de desarrollo a medida y consultoría estratégica de alto nivel.
-        </p>
-      </div>
-
-      <div class="offerings-container">
-
-        <!-- PRODUCTO 1: AGROLOGÍSTICA -->
-        <div class="offering-block">
-          <div class="offering-header">
-            <div>
-              <h3>Plataforma AgroLogística</h3>
-              <p>
-                Aplicación integral diseñada específicamente para centralizar la información de la producción agrícola y articularla fluidamente con la logística de transporte y almacenamiento.
-              </p>
-            </div>
-            <a href="#contacto" class="btn btn-primary btn-sm">Solicitar Información</a>
-          </div>
-
-          <div class="modules-grid">
-            <div class="module-card">
-              <span class="mod-badge">Módulo 01</span>
-              <h4>Monitoreo de Cultivos</h4>
-              <p>Seguimiento de lotes georreferenciados, estado fenológico, porcentaje de humedad de suelo, índice verde NDVI y alertas de estrés hídrico o plagas.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge">Módulo 02</span>
-              <h4>Gestión de Cosecha</h4>
-              <p>Planificación de labores, fechas estimadas de recolección, asignación de maquinaria, tolvas y registro dinámico de toneladas por lote.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge">Módulo 03</span>
-              <h4>Gestión de Transporte</h4>
-              <p>Asignación de flota pesada, vinculación automática de Carta de Porte Electrónica (CTG), trazado de rutas óptimas lote-acopio-puerto y seguimiento de demoras.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge">Módulo 04</span>
-              <h4>Gestión de Acopio y Silos</h4>
-              <p>Monitoreo de nivel de llenado en silos y celdas, registro de temperatura, humedad del grano almacenado y control de mermas técnicas.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge">Módulo 05</span>
-              <h4>Clima y Alertas Zonales</h4>
-              <p>Conexión con estaciones meteorológicas regionales del NOA para anticipar ventanas óptimas de cosecha y alertar ante tormentas severas.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge">Módulo 06</span>
-              <h4>Trazabilidad Digital</h4>
-              <p>Historial digital inmutable que documenta la vida del cultivo: fecha de siembra, fitosanitarios, cosecha, pesaje balanza y transporte a destino.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- PRODUCTO 2: PLATAFORMAS PERSONALIZADAS -->
-        <div class="offering-block">
-          <div class="offering-header">
-            <div>
-              <h3>Plataformas Personalizadas de Gestión Empresarial</h3>
-              <p>
-                Sistemas desarrollados y adaptados con precisión a la estructura organizativa, procesos administrativos y objetivos particulares de cada cliente.
-              </p>
-            </div>
-            <a href="#contacto" class="btn btn-ghost btn-sm">Consultar Solución</a>
-          </div>
-
-          <div class="modules-grid">
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Gestión</span>
-              <h4>Gestión de Clientes (CRM)</h4>
-              <p>Registro centralizado de cuentas comerciales, productores asociados, contratos de entrega y condiciones comerciales.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Personal</span>
-              <h4>Gestión de Empleados</h4>
-              <p>Administración del personal, legajos, roles y permisos, turnos operativos de cuadrillas y asignación a proyectos o faenas.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Proyectos</span>
-              <h4>Gestión de Proyectos & Campañas</h4>
-              <p>Planificación de campañas productivas (zafra azucarera, campaña gruesa de granos, citrus), hitos y avance presupuestario.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Analítica</span>
-              <h4>Dashboards e Indicadores</h4>
-              <p>Paneles ejecutivos de control con métricas clave en tiempo real, gráficos de evolución y estados de alerta operativos.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Reportes</span>
-              <h4>Módulo de Reportes Oficiales</h4>
-              <p>Generación de informes personalizados con filtros por campaña, lote o fecha, exportables a formatos Excel y PDF listos para directorio.</p>
-            </div>
-
-            <div class="module-card">
-              <span class="mod-badge" style="background:var(--accent-teal-subtle);color:var(--accent-teal-dark);">Seguridad</span>
-              <h4>Configuración & Permisos</h4>
-              <p>Administración granular de perfiles de usuario, autenticación segura, parámetros de conexión API y auditoría de eventos.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- SERVICIOS: DESARROLLO A MEDIDA Y CONSULTORÍA -->
-        <div class="services-grid">
-          <div class="service-card" style="border-top: 4px solid var(--primary);">
-            <div>
-              <h4>Desarrollo de Software a Medida</h4>
-              <p style="color:var(--text-muted);line-height:1.6;">
-                Creamos sistemas desde cero basados en principios de Arquitectura Limpia (Clean Architecture), adaptándonos a los procesos críticos de su empresa.
-              </p>
-              <ul>
-                <li>Aplicaciones web cloud y sistemas desktop de alto rendimiento (.NET, C#, Python, React).</li>
-                <li>Diseño de APIs RESTful robustas y microservicios escalables.</li>
-                <li>Integración con balanzas electrónicas de camiones, sensores IoT de humedad/temperatura y sistemas ERP legados.</li>
-                <li>Células ágiles de ingeniería para empresas locales e internacionales.</li>
-              </ul>
-            </div>
-            <a href="#contacto" class="btn btn-ghost btn-sm" style="margin-top:20px;">Cotizar Proyecto a Medida</a>
-          </div>
-
-          <div class="service-card" style="border-top: 4px solid var(--accent-amber);">
-            <div>
-              <h4>Consultoría Tecnológica & Auditorías</h4>
-              <p style="color:var(--text-muted);line-height:1.6;">
-                Analizamos el funcionamiento operativo de su organización para detectar cuellos de botella y proponer la estrategia tecnológica más rentable.
-              </p>
-              <ul>
-                <li><strong>Auditorías de Madurez Digital gratuitas:</strong> Diagnóstico presencial en plantas, ingenios y empaques del NOA.</li>
-                <li>Relevamiento y modelado formal de procesos de negocio (BPMN / UML).</li>
-                <li>Optimización y refactorización de arquitecturas de software existentes para erradicar fallos y latencias (−20% en tiempos).</li>
-                <li>Planes de migración tecnológica y capacitación del personal de planta.</li>
-              </ul>
-            </div>
-            <a href="#contacto" class="btn btn-primary btn-sm" style="margin-top:20px;">Solicitar Auditoría Presencial</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ==========================================================================
-       ORGANIGRAMA Y DESCRIPCIÓN DE PUESTOS (TP Nº1)
-       ========================================================================== -->
-  <section id="organigrama">
-    <div class="wrap">
-      <div class="section-head">
-        <h2>Organigrama Empresarial</h2>
-        <p>
-          Diseñado bajo principios de especialización, control de calidad y soporte presencial continuo para el sector productivo regional. Haga clic en cualquiera de los puestos técnicos para explorar sus funciones específicas.
-        </p>
-      </div>
-
-      <div class="org-chart-wrapper">
-        <div class="org-tree">
-          
-          <!-- NIVEL 1: DIRECCIÓN GENERAL -->
-          <div class="org-node ceo">
-            <div class="name">Dirección General (CEO)</div>
-            <div class="role">Código: 10000 • Gerencia General</div>
-          </div>
-
-          <!-- NIVEL 2: GERENCIAS DE ÁREA -->
-          <div class="org-tier tier-gerencias">
-            <div class="org-node">
-              <div class="name">Área RRHH</div>
-              <div class="role">11000 • Reclutamiento y Talento</div>
-            </div>
-
-            <div class="org-node">
-              <div class="name">Área Comercial</div>
-              <div class="role">12000 • Ventas y Alianzas NOA</div>
-            </div>
-
-            <div class="org-node" style="border-top-color:var(--primary-light);">
-              <div class="name">Área Tecnología</div>
-              <div class="role">13000 • Dirección de Tecnología (CTO)</div>
-            </div>
-          </div>
-
-          <!-- NIVEL 3 Y 4: DEPARTAMENTOS Y PUESTOS TÉCNICOS DE SISTEMAS -->
-          <div class="org-tier tier-deptos">
-            
-            <!-- Depto 1: Desarrollo -->
-            <div class="org-depto-group">
-              <div class="org-depto-title">Depto. Desarrollo (13100)</div>
-              
-              <div class="org-node-action" data-role="pm">
-                <div class="role-head">Project Manager</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="backend">
-                <div class="role-head">Desarrollador BackEnd</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="frontend">
-                <div class="role-head">Desarrollador FrontEnd</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-            </div>
-
-            <!-- Depto 2: Sistemas -->
-            <div class="org-depto-group">
-              <div class="org-depto-title">Depto. Sistemas (13200)</div>
-              
-              <div class="org-node-action" data-role="analista">
-                <div class="role-head">Analista Funcional</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="data">
-                <div class="role-head">Data Analyst / DBA</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="ui">
-                <div class="role-head">Diseñador UI / UX</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="devops">
-                <div class="role-head">Ingeniero DevOps</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="ciberseguridad">
-                <div class="role-head">Especialista CiberSeguridad</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-            </div>
-
-            <!-- Depto 3: Soporte -->
-            <div class="org-depto-group">
-              <div class="org-depto-title">Depto. Soporte (13300)</div>
-              
-              <div class="org-node-action" data-role="soporte">
-                <div class="role-head">Técnico de Soporte & Admin</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-            </div>
-
-            <!-- Depto 4: Pruebas y Control -->
-            <div class="org-depto-group">
-              <div class="org-depto-title">Depto. Pruebas y Control (13400)</div>
-              
-              <div class="org-node-action" data-role="qa">
-                <div class="role-head">QA Tester Funcional</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-
-              <div class="org-node-action" data-role="rendimiento">
-                <div class="role-head">Tester de Seguridad & Rendimiento</div>
-                <div class="role-hint">🔍 Ver funciones y perfil ➔</div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Modal Interactivo para Ficha de Puestos -->
-  <div id="role-detail-modal" class="role-modal-overlay" aria-hidden="true">
-    <div class="role-modal">
-      <button id="role-modal-close" class="role-modal-close" aria-label="Cerrar modal">✕</button>
-      <h3 id="role-modal-title">Título del Puesto</h3>
-      <div id="role-modal-area" class="modal-meta">Área y Departamento</div>
-      <div id="role-modal-dependencia" style="font-size:13px;font-weight:600;color:var(--text-muted);margin-bottom:16px;">Dependencia</div>
-
-      <div class="role-modal-block">
-        <h4>Objetivo General del Puesto</h4>
-        <p id="role-modal-objetivo">Texto del objetivo...</p>
-      </div>
-
-      <div class="role-modal-block">
-        <h4>Funciones Específicas</h4>
-        <ul id="role-modal-funciones">
-          <!-- Dinámico -->
-        </ul>
-      </div>
-
-      <div class="role-modal-block">
-        <h4>Competencias Requeridas</h4>
-        <p id="role-modal-competencias">Competencias...</p>
-      </div>
-
-      <div class="role-modal-block">
-        <h4>Principales Conocimientos y Habilidades</h4>
-        <p id="role-modal-herramientas" style="font-family:var(--font-mono);font-size:13px;background:var(--canvas);padding:10px;border-radius:6px;border:1px solid var(--line);">Herramientas...</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==========================================================================
-       CONTACTO & SOLICITUD DE AUDITORÍA DIGITAL
-       ========================================================================== -->
-  <section id="contacto">
-    <div class="wrap">
-      <div class="contact-layout">
-        <div class="contact-info">
-          <h2>Comencemos a modernizar su operación.</h2>
-          <p>
-            Coordinemos una <strong>Auditoría de Madurez Digital gratuita</strong> directamente en su establecimiento productivo o solicite información sobre la <strong>Plataforma AgroLogística</strong> y servicios de software a medida.
-          </p>
-
-          <div class="contact-details">
-            <div class="contact-card-item">
-              <div class="icon">📍</div>
-              <div>
-                <div style="font-size:12px;color:var(--text-muted);font-weight:600;text-transform:uppercase;">Sede Central</div>
-                <div style="font-weight:700;color:var(--text-main);">San Miguel de Tucumán, Argentina</div>
-              </div>
-            </div>
-
-            <div class="contact-card-item">
-              <div class="icon">✉️</div>
-              <div>
-                <div style="font-size:12px;color:var(--text-muted);font-weight:600;text-transform:uppercase;">Correo Institucional</div>
-                <div style="font-weight:700;color:var(--text-main);">sitech@outlook.com</div>
-              </div>
-            </div>
-
-            <div class="contact-card-item">
-              <div class="icon">📞</div>
-              <div>
-                <div style="font-size:12px;color:var(--text-muted);font-weight:600;text-transform:uppercase;">Teléfono de Operaciones</div>
-                <div style="font-weight:700;color:var(--text-main);">+54 (381) 452-9000</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <form class="contact-form" action="#" method="post">
-          <div class="form-row">
-            <div class="field">
-              <label for="nombre">Nombre y Apellido *</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Ej: Ing. Martín Gómez" required>
-            </div>
-            <div class="field">
-              <label for="empresa">Empresa / Establecimiento *</label>
-              <input type="text" id="empresa" name="empresa" placeholder="Ej: Agropecuaria Santa Rosa S.A." required>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="field">
-              <label for="email">Correo Electrónico *</label>
-              <input type="email" id="email" name="email" placeholder="nombre@empresa.com.ar" required>
-            </div>
-            <div class="field">
-              <label for="telefono">Teléfono de Contacto</label>
-              <input type="tel" id="telefono" name="telefono" placeholder="+54 381 ...">
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="hectareas">Superficie o Capacidad Operativa (aprox.)</label>
-            <input type="text" id="hectareas" name="hectareas" placeholder="Ej: 3.200 Ha / 2 Silos de 3.000 Tn">
-          </div>
-
-          <div class="field">
-            <label>Tipo de Solicitud</label>
-            <div class="radio-group">
-              <label class="radio-option">
-                <input type="radio" name="tipo" value="auditoria" checked>
-                Auditoría Gratuita
-              </label>
-              <label class="radio-option">
-                <input type="radio" name="tipo" value="demo">
-                Demostración Plataforma
-              </label>
-              <label class="radio-option">
-                <input type="radio" name="tipo" value="a-medida">
-                Desarrollo a Medida
-              </label>
-            </div>
-          </div>
-
-          <div class="field">
-            <label for="mensaje">Describa brevemente su necesidad u operación</label>
-            <textarea id="mensaje" name="mensaje" placeholder="Indíquenos cultivo principal (soja, maíz, citrus, caña), cantidad de camiones o problemas actuales en balanza y pesaje..."></textarea>
-          </div>
-
-          <button type="submit" class="btn btn-primary" style="width:100%;">
-            Enviar Solicitud al Equipo SiTech
-          </button>
-        </form>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<!-- ==========================================================================
-     FOOTER INSTITUCIONAL CORPORATIVO
-     ========================================================================== -->
-<footer>
-  <div class="wrap">
-    <div class="footer-top">
-      <div class="footer-brand">
-        <img src="logo.png" alt="Logo SiTech Blanco">
-        <p>
-          Factoría de software y consultoría tecnológica líder en el Noroeste Argentino. Especialistas en soluciones de agrologística, optimización de cadenas de valor y arquitectura de software.
-        </p>
-        <p style="margin-top:12px;font-size:13px;color:#64748B;">
-          📍 San Miguel de Tucumán, Tucumán, Argentina
-        </p>
-      </div>
-
-      <div class="footer-nav">
-        <h4>Soluciones</h4>
-        <ul>
-          <li><a href="#soluciones">Plataforma AgroLogística</a></li>
-          <li><a href="#soluciones">Plataformas Personalizadas</a></li>
-          <li><a href="#soluciones">Desarrollo de Software a Medida</a></li>
-          <li><a href="#soluciones">Consultoría Tecnológica</a></li>
-          <li><a href="#contacto">Auditorías de Madurez Digital</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-nav">
-        <h4>Empresa</h4>
-        <ul>
-          <li><a href="#inicio">Inicio</a></li>
-          <li><a href="#empresa">Misión y Visión</a></li>
-          <li><a href="#empresa">Objetivos y Estrategias</a></li>
-          <li><a href="#problematica">Diagnóstico Sectorial</a></li>
-          <li><a href="#organigrama">Organigrama de la Empresa</a></li>
-          <li><a href="#contacto">Contacto & Consultas</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div>© 2026 SiTech — Soluciones Tecnológicas. Todos los derechos reservados. San Miguel de Tucumán, Argentina.</div>
-      <div>Desarrollo y Consultoría Tecnológica para el NOA y Proyección Internacional.</div>
-    </div>
-  </div>
-</footer>
-
-<script src="src/app.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>
